@@ -13,7 +13,8 @@
       "matches": [
         "https://developer.chrome.com/docs/extensions/*",
         "https://www.google.com/search?q=*"
-      ]
+      ],
+      "run_at": "document_idle"
     }
   ]
 }

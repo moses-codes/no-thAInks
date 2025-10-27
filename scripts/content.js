@@ -14,7 +14,20 @@ if (modified.split("+").includes("-ai")) {
 
 const form = document.getElementById("tsf");
 console.log(form);
+const formInput = document.querySelector("textarea");
+console.log(formInput);
 
-form.addEventListener("submit", (e) => {}), { capture: true };
+formInput.addEventListener("change", (e) => {
+  console.log("changed");
+});
+
+// form.addEventListener(
+//   "submit",
+//   (e) => {
+//     console.log("hehe");
+//     e.preventDefault();
+//   },
+//   { capture: true }
+// );
 
 // window.location.href = newHref;
